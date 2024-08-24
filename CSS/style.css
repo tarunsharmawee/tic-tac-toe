@@ -1,0 +1,87 @@
+h2{
+    font-size: 8vmin;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#FFD29D;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0 1rem  rgb(152, 104, 0, 0.3);
+    font-size: 13vmin;
+    color: black;
+    background-color:#D6CFCB;
+}
+.box:hover{
+    height: 18.3vmin;
+    width: 18.3vmin;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+#reset{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0 1rem  rgb(152, 104, 0, 0.3);
+    font-size: 3vmin;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#reset:hover{
+    height: 6vmin;
+    width: 20vmin;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 0.3);
+}
+.new-game{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0 1rem  rgb(152, 104, 0, 0.3);
+    font-size: 3vmin;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.new-game:hover{
+    height: 6vmin;
+    width: 20vmin;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 0.3);
+}
+.msg{
+    font-size: 6vmin;
+    font-family: monospace;
+}
+.msg-container{
+    margin-top: 30vmin;
+    height: 40vmin;
+}
+.hide{
+    display: none;
+}
+.red{
+    color: rgb(167, 0, 0);
+}
+.tic{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 1vmin black;
+    color: #F1F7ED;
+}
